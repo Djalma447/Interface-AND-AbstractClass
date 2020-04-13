@@ -3,7 +3,7 @@ using System.Globalization;
 
 namespace Course.Models.Entities
 {
-    class Circle : Shape
+    class Circle : AbstractShape
     {
         public double Radius { get; set; }
 

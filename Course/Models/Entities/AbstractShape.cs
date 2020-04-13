@@ -2,7 +2,7 @@
 
 namespace Course.Models.Entities
 {
-    abstract class Shape
+    abstract class AbstractShape : IShape
     {
         public Color Color { get; set; }
 
